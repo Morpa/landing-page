@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardModule /> should render the heading 1`] = `
+.c0 {
+  background-color: #FFFFFF;
+  padding: 3.2rem;
+  color: #030517;
+  font-size: 1.6rem;
+  border-radius: 0.4rem;
+}
+
+.c1 {
+  border-left: 6px solid #F231A5;
+  padding-left: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.c2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.c3 {
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: #7B7373;
+}
+
+.c4 p + p {
+  margin-top: 2.4rem;
+}
+
+<article
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <h3
+      class="c2"
+    >
+      React
+    </h3>
+    <h4
+      class="c3"
+    >
+      ReactRockstar
+    </h4>
+  </div>
+  <div
+    class="c4"
+  >
+    lorem ipsun
+  </div>
+</article>
+`;
