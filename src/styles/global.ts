@@ -1,20 +1,49 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle, css } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
+ @font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/poppins-v9-latin-regular.woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
   * {
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    &::before,
+    &::after {
+      box-sizing:inherit;
+    }
   }
+
   html {
     font-size: 62.5%;
   }
+
   html, body, #__next {
     height: 100%;
   }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-  }
+
+   ${({ theme }) => css`
+     html {
+       font-family: ${theme.font.family};
+       font-size: 62.5%;
+       scroll-behavior: smooth;
+     }
+     body {
+       background-color: ${theme.colors.mainBg};
+       color: ${theme.colors.white};
+       font-size: ${theme.font.sizes.small};
+     }
+   `}
 `
 
 export default GlobalStyles
