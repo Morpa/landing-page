@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should render the names of authors 1`] = `
+.c1 {
+  max-width: 130rem;
+  padding: 6.0rem calc(3.2rem / 2);
+  margin: 0 auto;
+}
+
+.c0 {
+  background: #FFFFFF;
+  color: #7B7373;
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 3.4rem;
+  position: relative;
+  z-index: 2;
+  margin-top: -3.2rem;
+}
+
+.c0 a {
+  color: #F231A5;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border-bottom: 1px solid #F231A5;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    padding: 6.0rem calc(3.2rem / 2);
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    font-size: 1.8rem;
+    margin-top: -12.8rem;
+    padding-bottom: 6.0rem;
+  }
+}
+
+<footer
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <p>
+      Desenvolvido por
+      <a
+        href="https://willianjusten.com.br/"
+      >
+        Willian Justen 
+      </a>
+      e
+      <a
+        href="https://guilouro.dev"
+      >
+         Guilherme Louro
+      </a>
+    </p>
+    <p>
+      Design por 
+      <a
+        href="https://dribbble.com/vmarcosp"
+      >
+        Marcos Oliveira
+      </a>
+    </p>
+  </div>
+</footer>
+`;

@@ -38,6 +38,7 @@ const GlobalStyles = createGlobalStyle`
        font-size: 62.5%;
        scroll-behavior: smooth;
      }
+
      body {
        background-color: ${theme.colors.mainBg};
        color: ${theme.colors.white};
